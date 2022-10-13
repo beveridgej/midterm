@@ -53,6 +53,7 @@ table {
 /*Makes background teal */
 body {
     background-color: #aad4cf;
+    margin: 0px;
 }
 
 /* adds container around header, main, footer*/
@@ -65,7 +66,7 @@ body {
 /*centers, adds color white, font type and size to class=centered (heading 1)*/
 .centered {
     position: absolute;
-    top: 29%;
+    top: 230px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -74,7 +75,7 @@ body {
 }
 
 /* Floats blocks left, text color black, centers, spaces, borders changes font type (home, story, contact) */
-li {
+.a{
     float: left;
     display: block;
     color:black;
@@ -87,8 +88,63 @@ li {
 }
 
 /* Makes last block (contact) diplay no border*/
-li:last-child {
+li.a:last-child {
     border-right: none;
+}
+
+h1 {
+    display: block;
+    padding-top: 80px;
+    padding-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+/*Adjusts image to have padding on top, right, and bottom. Places img left of the page*/
+.img {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 12px;
+    width: 260px ;
+    height: 260px;
+    float:left;
+}
+
+/*Adjusts paragraph text, alignment, font, word spacing,and top padding*/
+p{
+    padding-top: 20px;
+    padding-left: 12px;
+    text-align: left;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+}
+
+ h2{display: block;
+    padding-top: 40px;
+    padding-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+ul.b{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    list-style-type: disc;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 12px;
+    padding-top: 30px;
+}
+
+p.solid{
+ border-style:dotted;
 }
 
 

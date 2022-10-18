@@ -113,6 +113,7 @@ h1 {
 
 /*Adjusts paragraph text, alignment, font, word spacing,and top padding*/
 p{
+    font-size: 16px;
     padding-top: 20px;
     padding-left: 12px;
     text-align: left;
@@ -131,6 +132,7 @@ p{
 ul.b{
     
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
     list-style-type: disc;
     padding-top: 15px;
     padding-left: 30px;
@@ -141,7 +143,7 @@ h3{
     font-size: 30px;
     padding-left: 12px;
     padding-top: 30px;
-    padding-bottom: 15px
+    padding-bottom: 15px;
 }
 
 input[type=text], select{
@@ -158,6 +160,7 @@ input[type=text], select{
 div.border {
     padding-top: 36px;
     padding-left: 16px;
+    padding-bottom: 30px;
     border-style: solid;
     border: 1px solid black;
     margin-left: 12px;
@@ -173,14 +176,57 @@ input:nth-child(6){
     height: 100px;
 }
 
-input.list{
+div.starf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22.5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input.dot[type='radio']{
+    display:inline-block;
     height: 10px;
     width: 10px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    display: inline-block;
-    border:2px solid #ccc;
+    border:1px solid #ccc;
+    border-style: solid;
+    padding-bottom: 20px;
+    
 }
+    
+div.borderb{
+    border-style: solid;
+    border:1px solid black;
+    margin-right: 932px;
+    padding-bottom: 14px;
+    padding-top:14px;
+    padding-right:12px;
+    padding-left:12px;
+    margin-top: 20px;
+    
+}
+
+label.send{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+h4{
+    text-align: right;
+    margin-right: 15px;
+    padding-top: 36px;
+    padding-bottom: 38px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+    
+
+}
+
+
+    
+    
+
 
 
 

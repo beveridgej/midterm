@@ -14,9 +14,9 @@
             <div class="centered">Lone Starfish</div>
             <nav>
                 <ul>
-                    <li class="a"><a  href="#Home"></a>HOME</li>
-                    <li class="a"><a  href="#Story"></a>STORY</li>
-                    <li class="a"><a href="#Contact"></a>CONTACT</li>
+                    <li class="a"><a href="Home">HOME</a></li>
+                    <li class="a"><a href="Story">STORY</a></li>
+                    <li class="a"><a href="Contact">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
@@ -64,33 +64,36 @@
             <div class="border">
                 <form action="/action_page.php">
                     <label for="fname">Your Name</label>
-                    <input type="text" class="yname" name="yourname" >
+                    <input type="text"  id="fname" name="yourname" >
 
                     <label for="yemail">Your Email</label>
-                    <input type="text" class="yemail" name="youremail" >
+                    <input type="text"  id="yemail" name="youremail" >
             
-                    <label for="ymessage">Your Message</label>
-                    <input type="text" class="ymessage" name="yourmessage" >
+                    <div class="message">
+                        <label for="ymessage">Your Message</label>
+                   </div>
+
+                    <textarea id="ymessage"></textarea>
 
                     <div class="starf">
-                    <label> Would you like to visit the starfish?</label>
+                        <label> Would you like to visit the starfish?</label>
                     </div>
 
                     <div>
-                    <label>Yes</label>
-                    <input type="radio" class="dot" name="yourname" >
+                    <label for="yes">Yes</label>
+                    <input type="radio" class="dot" id="yes" name="choose" >
 
-                    <label>No</label>
-                    <input type="radio" class="dot" name="youremail" >
+                    <label for="no">No</label>
+                    <input type="radio" class="dot" id="no" name="choose" >
             
-                    <label>Maybe</label>
-                    <input type="radio" class="dot" name="yourmessage" >
+                    <label for=maybe>Maybe</label>
+                    <input type="radio" class="dot" id="maybe" name="choose" >
 
                     </div>
 
-                    <div class="borderb">
+                    <div>
 
-                        <label class="send">Send</label>
+                        <input type="submit" value="Send"> 
 
 
                     </div>

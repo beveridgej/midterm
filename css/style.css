@@ -59,7 +59,7 @@ body {
 /* adds container around header, main, footer*/
 .container{
     background-color: #d4e9e7;
-    width: 1025px;
+    width: 1024px;
     margin: 0 auto;
 }
 
@@ -74,6 +74,7 @@ body {
     font-family:Arial, Helvetica, sans-serif
 }
 
+/*Displays link black, no background, removes underline hyperlink */
 a:link {
     color: black;
     background-color: transparent;
@@ -98,6 +99,7 @@ li.a:last-child {
     border-right: none;
 }
 
+/* Displays heading 1 as block, adds padding to top,left, adds font family and font size*/
 h1 {
     display: block;
     padding-top: 80px;
@@ -128,13 +130,15 @@ p{
     word-spacing: 1px;
 }
 
- h2{display: block;
+/* Displays heading 2 as block, adds padding top, left, gives font family and font size*/
+h2{display: block;
     padding-top: 40px;
     padding-left: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
 
+/* Displays unordered list with font family and size, changes list style to discs, adds padding top, left*/
 ul.b{
     
     font-family:Arial, Helvetica, sans-serif;
@@ -144,6 +148,7 @@ ul.b{
     padding-left: 30px;
 }
 
+/* Displays heading 3 with font family and size, adds padding top, left, bottom*/
 h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -152,6 +157,7 @@ h3{
     padding-bottom: 15px;
 }
 
+/* Displays text input area with width, padding top,right, margin, in block, adds border/style/sizing*/
 input[type=text], select{
     width: 970px;
     padding: 12px 20px;
@@ -163,7 +169,7 @@ input[type=text], select{
     
   }
 
-
+/* Adds border around form with padding top,left,bottom, adds border/style, margin left and right*/
 div.border {
     padding-top: 36px;
     padding-left: 16px;
@@ -174,15 +180,18 @@ div.border {
     margin-right: 12px;
 }
 
+/* Adds font family/size to label*/
 label{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
+/* Adds padding bottom to message label */
 div.message{
     padding-bottom: 10px;
 }
 
+/* Displays message text area with width/height,padding top/right, border, background color, font size/style, removes resizing*/
 textarea{
     width: 970px;
   height: 150px;
@@ -193,11 +202,9 @@ textarea{
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   resize: none;
-  
+  }
 
-
-}
-
+/* Adds font family/size, padding top/bottom to label*/
 div.starf{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22.5px;
@@ -205,6 +212,7 @@ div.starf{
     padding-bottom: 20px;
 }
 
+/* Displays form with radial selctors, as inline block, height/width, background color, border/style/radius, adds padding bottom, makes cursor pointer*/
 div.dot[type='radio']{
     display:inline-block;
     height: 10px;
@@ -216,9 +224,9 @@ div.dot[type='radio']{
     padding-bottom: 20px;
     cursor:pointer;
     
-}
-    
+}   
 
+/* Adds border/style, margin top/right, padding top/right/bottom/left, removes background, cursor pointer to send*/
 input[type=submit] {
     border-style: solid;
     border:1px solid black;
@@ -233,6 +241,7 @@ input[type=submit] {
   
   }
 
+  /* Displays heading 4 with font family/type, aligns to the right of footer, adds padding top/bottom, margin right/bottom*/
 h4{
     text-align: right;
     margin-right: 15px;
